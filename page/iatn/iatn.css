@@ -1,0 +1,32 @@
+html,body{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  .bar {
+    fill: steelblue;
+}
+
+.highlight {
+    fill: orange;
+}
+.topic-title{
+    width: 78%;
+    margin: 20px;
+   
+}
+.topic-title-p{
+    font-size: 32px;
+}
+.topic-description{
+    font-size: 24px;
+    font-weight: bold;
+}

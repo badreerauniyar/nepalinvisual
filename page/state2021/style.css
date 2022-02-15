@@ -1,0 +1,61 @@
+html,body{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+/* svg{
+    /* background-color: whitesmoke; */
+*/
+#canvas{
+    min-width: 1000px;
+    min-height: 600px;
+}
+#tooltip {
+    position: absolute;
+    width: 180px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+#tooltip p #heading {
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.state-title{
+    width: 78%;
+    margin: 20px;
+   
+}
+.state-title-p{
+    font-size: 32px;
+}
+.state-description{
+    font-size: 24px;
+    font-weight: bold;
+}
